@@ -34,7 +34,7 @@ h) Seleccionar las direcciones del viento de los días con descripción "Lluvios
 
 ## **PARTE C - CONSULTAS XQUERY**
 ### Ejercicio 4 - 3,6 puntos
-Realiza las siguientes consultas en XPath sobre el documento xml hospital.xml. Para ello crea continua con el  documento (Google Docs) e incluye captura de su funcionamiento en BaseX (debe aparecer tanto la consulta como el resultado de dicha consulta). - 0,60 Cada consulta
+Realiza las siguientes consultas en XQUERY sobre el documento xml hospital.xml. Para ello crea continua con el  documento (Google Docs) e incluye captura de su funcionamiento en BaseX (debe aparecer tanto la consulta como el resultado de dicha consulta). - 0,60 Cada consulta
 a) Obtener el nombre y diagnóstico de los pacientes que han sido diagnosticados con "Gripe"
 b) Seleccionar el nombre y el diagnóstico del paciente con mayor edad.
 c) Listar los nombres de los pacientes asignados a "Dra. María López", ordenados por edad ascendente
