@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital nombre="Hospital Central" ubicacion="Madrid, España">
+    <departamento nombre="Urgencias">
+        <medico id="1" especialidad="Traumatología">
+            <nombre>Dr. Juan Pérez</nombre>
+            <turno>Diurno</turno>
+        </medico>
+        <medico id="2" especialidad="Cardiología">
+            <nombre>Dra. María López</nombre>
+            <turno>Nocturno</turno>
+        </medico>
+    </departamento>
+    <departamento nombre="Pediatría">
+        <medico id="3" especialidad="Pediatría">
+            <nombre>Dr. Carlos Gómez</nombre>
+            <turno>Diurno</turno>
+        </medico>
+        <medico id="4" especialidad="Neonatología">
+            <nombre>Dra. Ana Martínez</nombre>
+            <turno>Nocturno</turno>
+        </medico>
+    </departamento>
+    <paciente id="1001">
+        <nombre>Pedro Moreno</nombre>
+        <edad>8</edad>
+        <diagnostico>Gripe</diagnostico>
+        <doctor-asignado id="3">Dr. Carlos Gómez</doctor-asignado>
+    </paciente>
+    <paciente id="1002">
+        <nombre>Laura Fernández</nombre>
+        <edad>45</edad>
+        <diagnostico>Infarto</diagnostico>
+        <doctor-asignado id="2">Dra. María López</doctor-asignado>
+    </paciente>
+    <paciente id="1003">
+        <nombre>Pepe Soler</nombre>
+        <edad>25</edad>
+        <diagnostico>Gripe</diagnostico>
+        <doctor-asignado id="2">Dra. María López</doctor-asignado>
+    </paciente>
+    <paciente id="1004">
+        <nombre>Justina Luna</nombre>
+        <edad>34</edad>
+        <diagnostico>Gastroenteritis</diagnostico>
+        <doctor-asignado id="1">Dr. Juan Pérez</doctor-asignado>
+    </paciente>
+</hospital>

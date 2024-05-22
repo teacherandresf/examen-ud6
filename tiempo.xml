@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudad nombre="Madrid" pais="España">
+    <clima>
+        <fecha>2024-05-20</fecha>
+        <temperatura>
+            <maxima unidad="celsius">26</maxima>
+            <minima unidad="celsius">14</minima>
+        </temperatura>
+        <humedad>55</humedad>
+        <precipitacion unidad="mm">8</precipitacion>
+        <viento>
+            <velocidad unidad="km/h">15</velocidad>
+            <direccion>Noroeste</direccion>
+        </viento>
+        <descripcion>Chubascos</descripcion>
+    </clima>
+    <clima>
+        <fecha>2024-05-21</fecha>
+        <temperatura>
+            <maxima unidad="celsius">27</maxima>
+            <minima unidad="celsius">16</minima>
+        </temperatura>
+        <humedad>50</humedad>
+        <precipitacion unidad="mm">0</precipitacion>
+        <viento>
+            <velocidad unidad="km/h">10</velocidad>
+            <direccion>Noreste</direccion>
+        </viento>
+        <descripcion>Parcialmente nublado</descripcion>
+    </clima>
+    <clima>
+        <fecha>2024-05-22</fecha>
+        <temperatura>
+            <maxima unidad="celsius">28</maxima>
+            <minima unidad="celsius">17</minima>
+        </temperatura>
+        <humedad>60</humedad>
+        <precipitacion unidad="mm">0</precipitacion>
+        <viento>
+            <velocidad unidad="km/h">20</velocidad>
+            <direccion>Sur</direccion>
+        </viento>
+        <descripcion>Mayormente soleado</descripcion>
+    </clima>
+    <clima>
+        <fecha>2024-05-23</fecha>
+        <temperatura>
+            <maxima unidad="celsius">23</maxima>
+            <minima unidad="celsius">14</minima>
+        </temperatura>
+        <humedad>55</humedad>
+        <precipitacion unidad="mm">15</precipitacion>
+        <viento>
+            <velocidad unidad="km/h">15</velocidad>
+            <direccion>Noroeste</direccion>
+        </viento>
+        <descripcion>Lluvioso</descripcion>
+    </clima>
+    <clima>
+        <fecha>2024-05-24</fecha>
+        <temperatura>
+            <maxima unidad="celsius">20</maxima>
+            <minima unidad="celsius">14</minima>
+        </temperatura>
+        <humedad>55</humedad>
+        <precipitacion unidad="mm">16</precipitacion>
+        <viento>
+            <velocidad unidad="km/h">15</velocidad>
+            <direccion>Noroeste</direccion>
+        </viento>
+        <descripcion>Lluvioso</descripcion>
+    </clima>
+</ciudad>
