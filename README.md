@@ -1,4 +1,4 @@
-# LMSGI EXAMEN UNIDAD 6 - 20/05/2024
+# LMSGI EXAMEN RECUPERACIÓN UNIDAD 6 - 29/05/2024
 
 ## Indicaciones generales
 Lee atentamente estas indicaciones generales antes de realizar esta prueba:
@@ -15,31 +15,33 @@ Lee atentamente estas indicaciones generales antes de realizar esta prueba:
 ## **PARTE A - FICHEROS XML EN JAVA**
 
 ### Ejercicio 1 - 2 puntos
-Descarga el archivo tiempo.xml que se encuentra dentro de este repositorio y añádelo a tu proyecto. Ahora vamos a procesar este fichero mediante un programa en Java. El programa deberá mostrar por pantalla la fecha del día que lluvió (precipitación > 0).
+Descarga el archivo videojuegos.xml que se encuentra dentro de este repositorio y añádelo a tu proyecto. Ahora vamos a procesar este fichero mediante un programa en Java. El programa deberá mostrar por pantalla los títulos de los juegos que tienen una calificación mayor a 8.
 
 ### Ejercicio 2 - 2 puntos
 Crea un programa en Java que automáticamente escriba un fichero xml y lo guarde como archivo externo. Este se compondrá de un elemento raíz llamado persona. Dentro de persona encontramos elementos que son nombre, apellidos, fecha de nacimiento y correo electrónico. Rellénalo con tus datos. Ejecuta el programa de tal forma que el archivo resultante se guarde en la carpeta del proyecto.
 
 ## **PARTE B - CONSULTAS XPATH**
 ### Ejercicio 3 - 2,4 puntos
-Realiza las siguientes consultas en XPath sobre el documento xml del Ejercicio 1 (tiempo.xml). Para ello crea un documento (Google Docs) e incluye captura de su funcionamiento en BaseX (debe aparecer tanto la consulta como el resultado de dicha consulta). - 0,30 Cada consulta
-a) Seleccionar todas las fechas de los reportes climáticos
-b) Seleccionar la máxima temperatura máxima
-c) Seleccionar la mínima temperatura mínima
-d) Seleccionar los días con precipitaciones mayores a 10 mm
-e) Seleccionar las velocidades del viento cuya unidad es km/h
-f) Seleccionar los días con viento proveniente del Noroeste
-g) Selecciona la temperatura máxima del 2024-05-21
-h) Seleccionar las direcciones del viento de los días con descripción "Lluvioso"
+Realiza las siguientes consultas en XPath sobre el documento XML del Ejercicio 1 (videojuegos.xml). Para ello crea un documento (Google Docs) e incluye captura de su funcionamiento en BaseX (debe aparecer tanto la consulta como el resultado de dicha consulta). - 0.30 Cada consulta
+
+a) Seleccionar todos los títulos de los videojuegos
+b) Seleccionar la calificación más alta
+c) Seleccionar la fecha de lanzamiento más temprana
+d) Seleccionar los videojuegos con calificación mayor a 8
+e) Seleccionar las plataformas de los videojuegos
+f) Seleccionar los videojuegos lanzados en 2020
+g) Seleccionar la calificación del juego "Hades"
+h) Seleccionar los títulos de los videojuegos con calificación menor a 8
 
 ## **PARTE C - CONSULTAS XQUERY**
 ### Ejercicio 4 - 3,6 puntos
-Realiza las siguientes consultas en XQUERY sobre el documento xml hospital.xml. Para ello crea continua con el  documento (Google Docs) e incluye captura de su funcionamiento en BaseX (debe aparecer tanto la consulta como el resultado de dicha consulta). - 0,60 Cada consulta
-a) Obtener el nombre y diagnóstico de los pacientes que han sido diagnosticados con "Gripe"
-b) Seleccionar el nombre y el diagnóstico del paciente con mayor edad.
-c) Listar los nombres de los pacientes asignados a "Dra. María López", ordenados por edad ascendente
-d) Obtener los nombres de los pacientes mayores de 30 años
-e) Crea una tabla HTML con el nombre de cada médico y su especialidad mediante una consulta XQuery
-f) Crea un documento HTML básico con estilos mínimos de CSS que incluya un listado de los pacientes y muestren sus diversos datos
+Realiza las siguientes consultas en XQuery sobre el documento XML reservas_hotel.xml. Para ello crea continúa con el documento (Google Docs) e incluye captura de su funcionamiento en BaseX (debe aparecer tanto la consulta como el resultado de dicha consulta). - 0.60 Cada consulta
+
+a) Obtener el nombre y la fecha de check-in de las reservas hechas para una habitación "Suite"
+b) Seleccionar el nombre y la fecha de check-in de la reserva más reciente
+c) Listar los nombres de los clientes asignados a la "Suite 101", ordenados por fecha de check-in ascendente
+d) Obtener los nombres de los clientes con una estancia mayor a 5 días
+e) Crear una tabla HTML con el nombre de cada cliente y su tipo de habitación mediante una consulta XQuery
+f) Crear un documento HTML básico con estilos mínimos de CSS que incluya un listado de las reservas y muestren sus diversos datos.
 
 
